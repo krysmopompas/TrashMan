@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>E950A9FF-1755-4628-B716-2EAD6BD447A8</string>
+	<key>IDESourceControlProjectName</key>
+	<string>trashman</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>00DEC292-94C4-4C46-826B-A5D35F4469F6</key>
+		<string>https://github.com/ivmai/bdwgc.git</string>
+		<key>09D1883D-F8C7-4B66-8232-5F5BB50BCF86</key>
+		<string>https://github.com/krysmopompas/TrashMan.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>trashman.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>00DEC292-94C4-4C46-826B-A5D35F4469F6</key>
+		<string>../../../bdwgc</string>
+		<key>09D1883D-F8C7-4B66-8232-5F5BB50BCF86</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/krysmopompas/TrashMan.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>09D1883D-F8C7-4B66-8232-5F5BB50BCF86</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>00DEC292-94C4-4C46-826B-A5D35F4469F6</string>
+			<key>IDESourceControlWCCName</key>
+			<string>bdwgc</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>09D1883D-F8C7-4B66-8232-5F5BB50BCF86</string>
+			<key>IDESourceControlWCCName</key>
+			<string>TrashMan</string>
+		</dict>
+	</array>
+</dict>
+</plist>

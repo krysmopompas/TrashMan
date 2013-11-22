@@ -8,10 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		CA226610182819E5008100CB /* libgc-lib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CA226609182819CB008100CB /* libgc-lib.a */; };
+		CAAB9A7C183F2B15006909AE /* libtrashman.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CAFBAF5518133B9C003D427A /* libtrashman.a */; };
 		CAFBAF6118133C01003D427A /* TrashMan.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CAFBAF5F18133C01003D427A /* TrashMan.cpp */; };
 		CAFBAFB518170D02003D427A /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAFBAFB418170D02003D427A /* Cocoa.framework */; };
 		CAFBAFC118170D02003D427A /* main.mm in Sources */ = {isa = PBXBuildFile; fileRef = CAFBAFC018170D02003D427A /* main.mm */; };
-		CAFBAFE618170D23003D427A /* libtrashman.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CAFBAF5518133B9C003D427A /* libtrashman.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -77,7 +77,7 @@
 			files = (
 				CA226610182819E5008100CB /* libgc-lib.a in Frameworks */,
 				CAFBAFB518170D02003D427A /* Cocoa.framework in Frameworks */,
-				CAFBAFE618170D23003D427A /* libtrashman.a in Frameworks */,
+				CAAB9A7C183F2B15006909AE /* libtrashman.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
