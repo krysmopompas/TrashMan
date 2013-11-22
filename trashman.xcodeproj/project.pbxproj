@@ -1,0 +1,494 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CA226610182819E5008100CB /* libgc-lib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CA226609182819CB008100CB /* libgc-lib.a */; };
+		CAFBAF6118133C01003D427A /* TrashMan.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CAFBAF5F18133C01003D427A /* TrashMan.cpp */; };
+		CAFBAFB518170D02003D427A /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAFBAFB418170D02003D427A /* Cocoa.framework */; };
+		CAFBAFC118170D02003D427A /* main.mm in Sources */ = {isa = PBXBuildFile; fileRef = CAFBAFC018170D02003D427A /* main.mm */; };
+		CAFBAFE618170D23003D427A /* libtrashman.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CAFBAF5518133B9C003D427A /* libtrashman.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CA226608182819CB008100CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA2265FF182819CB008100CB /* gc.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 2AE8D658BC004D009CDB6469;
+			remoteInfo = "gc-lib";
+		};
+		CA22660A182819CB008100CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA2265FF182819CB008100CB /* gc.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C2944C1BE7EE4C1DBC3301A8;
+			remoteInfo = "gcmt-dll";
+		};
+		CA22660C182819CB008100CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA2265FF182819CB008100CB /* gc.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BD467A5DB0014846BB6E48C7;
+			remoteInfo = "gcmt-lib";
+		};
+		CA22660E182819CB008100CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA2265FF182819CB008100CB /* gc.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 0BAE4F93D65E4D9E8A05DC66;
+			remoteInfo = gctest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CA2265F1181E4F50008100CB /* libatomic_ops_gpl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libatomic_ops_gpl.a; path = lib/libatomic_ops_gpl.a; sourceTree = "<group>"; };
+		CA2265F2181E4F50008100CB /* libatomic_ops_gpl.la */ = {isa = PBXFileReference; lastKnownFileType = text; name = libatomic_ops_gpl.la; path = lib/libatomic_ops_gpl.la; sourceTree = "<group>"; };
+		CA2265F3181E4F50008100CB /* libcord.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libcord.a; path = lib/libcord.a; sourceTree = "<group>"; };
+		CA2265F4181E4F50008100CB /* libgc.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libgc.a; path = lib/libgc.a; sourceTree = "<group>"; };
+		CA2265FB181E4F6E008100CB /* libatomic_ops.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libatomic_ops.a; path = lib/libatomic_ops.a; sourceTree = "<group>"; };
+		CA2265FF182819CB008100CB /* gc.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = gc.xcodeproj; path = ../bdwgc/gc.xcodeproj; sourceTree = "<group>"; };
+		CAFBAF5518133B9C003D427A /* libtrashman.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libtrashman.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAFBAF5D18133C01003D427A /* TrashMan.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrashMan.h; sourceTree = "<group>"; };
+		CAFBAF5F18133C01003D427A /* TrashMan.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TrashMan.cpp; sourceTree = "<group>"; };
+		CAFBAFB218170D02003D427A /* TrashManTester.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrashManTester.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAFBAFB418170D02003D427A /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		CAFBAFB718170D02003D427A /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		CAFBAFB818170D02003D427A /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		CAFBAFB918170D02003D427A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CAFBAFC018170D02003D427A /* main.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = main.mm; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CAFBAF5218133B9C003D427A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAFBAFAF18170D02003D427A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA226610182819E5008100CB /* libgc-lib.a in Frameworks */,
+				CAFBAFB518170D02003D427A /* Cocoa.framework in Frameworks */,
+				CAFBAFE618170D23003D427A /* libtrashman.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CA226600182819CB008100CB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CA226609182819CB008100CB /* libgc-lib.a */,
+				CA22660B182819CB008100CB /* libgcmt-dll.dylib */,
+				CA22660D182819CB008100CB /* libgcmt-lib.a */,
+				CA22660F182819CB008100CB /* gctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CAFBAF4C18133B9C003D427A = {
+			isa = PBXGroup;
+			children = (
+				CA2265FF182819CB008100CB /* gc.xcodeproj */,
+				CAFBAF5C18133C01003D427A /* inc */,
+				CAFBAF5E18133C01003D427A /* src */,
+				CAFBAFBA18170D02003D427A /* TrashManTester */,
+				CAFBAFB318170D02003D427A /* Frameworks */,
+				CAFBAF5618133B9C003D427A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CAFBAF5618133B9C003D427A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CAFBAF5518133B9C003D427A /* libtrashman.a */,
+				CAFBAFB218170D02003D427A /* TrashManTester.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CAFBAF5C18133C01003D427A /* inc */ = {
+			isa = PBXGroup;
+			children = (
+				CAFBAF5D18133C01003D427A /* TrashMan.h */,
+			);
+			path = inc;
+			sourceTree = "<group>";
+		};
+		CAFBAF5E18133C01003D427A /* src */ = {
+			isa = PBXGroup;
+			children = (
+				CAFBAF5F18133C01003D427A /* TrashMan.cpp */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		CAFBAFB318170D02003D427A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CA2265FB181E4F6E008100CB /* libatomic_ops.a */,
+				CA2265F1181E4F50008100CB /* libatomic_ops_gpl.a */,
+				CA2265F2181E4F50008100CB /* libatomic_ops_gpl.la */,
+				CA2265F3181E4F50008100CB /* libcord.a */,
+				CA2265F4181E4F50008100CB /* libgc.a */,
+				CAFBAFB418170D02003D427A /* Cocoa.framework */,
+				CAFBAFB618170D02003D427A /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CAFBAFB618170D02003D427A /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CAFBAFB718170D02003D427A /* AppKit.framework */,
+				CAFBAFB818170D02003D427A /* CoreData.framework */,
+				CAFBAFB918170D02003D427A /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		CAFBAFBA18170D02003D427A /* TrashManTester */ = {
+			isa = PBXGroup;
+			children = (
+				CAFBAFC018170D02003D427A /* main.mm */,
+			);
+			path = TrashManTester;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		CAFBAF5318133B9C003D427A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		CAFBAF5418133B9C003D427A /* trashman */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAFBAF5918133B9C003D427A /* Build configuration list for PBXNativeTarget "trashman" */;
+			buildPhases = (
+				CAFBAF5118133B9C003D427A /* Sources */,
+				CAFBAF5218133B9C003D427A /* Frameworks */,
+				CAFBAF5318133B9C003D427A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = trashman;
+			productName = trashman;
+			productReference = CAFBAF5518133B9C003D427A /* libtrashman.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		CAFBAFB118170D02003D427A /* TrashManTester */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAFBAFE018170D03003D427A /* Build configuration list for PBXNativeTarget "TrashManTester" */;
+			buildPhases = (
+				CAFBAFAE18170D02003D427A /* Sources */,
+				CAFBAFAF18170D02003D427A /* Frameworks */,
+				CAFBAFB018170D02003D427A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TrashManTester;
+			productName = TrashManTester;
+			productReference = CAFBAFB218170D02003D427A /* TrashManTester.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CAFBAF4D18133B9C003D427A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Nathan Rausch";
+			};
+			buildConfigurationList = CAFBAF5018133B9C003D427A /* Build configuration list for PBXProject "trashman" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CAFBAF4C18133B9C003D427A;
+			productRefGroup = CAFBAF5618133B9C003D427A /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = CA226600182819CB008100CB /* Products */;
+					ProjectRef = CA2265FF182819CB008100CB /* gc.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				CAFBAF5418133B9C003D427A /* trashman */,
+				CAFBAFB118170D02003D427A /* TrashManTester */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		CA226609182819CB008100CB /* libgc-lib.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libgc-lib.a";
+			remoteRef = CA226608182819CB008100CB /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CA22660B182819CB008100CB /* libgcmt-dll.dylib */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.dylib";
+			path = "libgcmt-dll.dylib";
+			remoteRef = CA22660A182819CB008100CB /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CA22660D182819CB008100CB /* libgcmt-lib.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libgcmt-lib.a";
+			remoteRef = CA22660C182819CB008100CB /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CA22660F182819CB008100CB /* gctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = gctest;
+			remoteRef = CA22660E182819CB008100CB /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CAFBAFB018170D02003D427A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CAFBAF5118133B9C003D427A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAFBAF6118133C01003D427A /* TrashMan.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAFBAFAE18170D02003D427A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAFBAFC118170D02003D427A /* main.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CAFBAF5718133B9C003D427A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		CAFBAF5818133B9C003D427A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		CAFBAF5A18133B9C003D427A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EXECUTABLE_PREFIX = lib;
+				HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/../bdwgc/include",
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+				);
+				PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CAFBAF5B18133B9C003D427A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EXECUTABLE_PREFIX = lib;
+				HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/../bdwgc/include",
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+				);
+				PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CAFBAFE118170D03003D427A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/../bdwgc/include",
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+				);
+				INFOPLIST_FILE = "";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/Volumes/bigdisk/Users/krysmopompas/dev/trashman/lib,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CAFBAFE218170D03003D427A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "";
+				HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/../bdwgc/include",
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+				);
+				INFOPLIST_FILE = "";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/Volumes/bigdisk/Users/krysmopompas/dev/trashman/lib,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CAFBAF5018133B9C003D427A /* Build configuration list for PBXProject "trashman" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAFBAF5718133B9C003D427A /* Debug */,
+				CAFBAF5818133B9C003D427A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAFBAF5918133B9C003D427A /* Build configuration list for PBXNativeTarget "trashman" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAFBAF5A18133B9C003D427A /* Debug */,
+				CAFBAF5B18133B9C003D427A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAFBAFE018170D03003D427A /* Build configuration list for PBXNativeTarget "TrashManTester" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAFBAFE118170D03003D427A /* Debug */,
+				CAFBAFE218170D03003D427A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CAFBAF4D18133B9C003D427A /* Project object */;
+}
